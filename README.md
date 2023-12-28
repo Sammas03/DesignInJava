@@ -36,9 +36,15 @@ TestProgrammer类（extends Programmer）
 
   
 
-### 2.接口隔离原则（Interface Segregation）
+### 4.接口隔离原则（Interface Segregation）
 
 * 用多个接口，而不是单一接口
 * 尽量细化接口，接口中的方法尽量少
 * 提高扩展性，符合低耦合的设计思想
+
+### 5.迪米特原则
+
+* 一个对象应该对其他对象保持最少的了解
+
+* 强调只和成员变量或方法中输入或输出的参数进行交流
 
